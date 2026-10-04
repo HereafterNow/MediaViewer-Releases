@@ -18,6 +18,13 @@ Unzip anywhere and run `MediaViewer.exe` (Windows 10 or 11, 64-bit). No installe
 Face-recognition models ship inside the zip. Settings and catalogs live under
 `%LocalAppData%\MediaViewer`. No network access, no telemetry.
 
+## Third-party components
+
+MediaViewer ships SQLite (public domain), ONNX Runtime and DirectML (MIT),
+the Windows App SDK runtime, the OpenCV Zoo YuNet detection model (Apache 2.0),
+and an AdaFace IR-50 recognition model (MIT). Full notices: THIRD-PARTY-NOTICES.txt
+inside the zip.
+
 ## Status
 
 Source is not published in this repository; it hosts release binaries only.
